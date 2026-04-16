@@ -30,7 +30,7 @@ public abstract class Conta {
     }
 
     public void debitar(double valor){
-        saldo += valor;
+        saldo -= valor;
 
     }
 
